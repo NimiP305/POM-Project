@@ -48,6 +48,11 @@ import common.CommonDataSetup;
 		public void bTest3() {
 			 System.out.println ("test3"); 
 		}
+		
+		@Test (priority = 4,groups = "smoke")
+		public void bTest4() {
+			 System.out.println ("test4");
+		}
 	}
 
 
